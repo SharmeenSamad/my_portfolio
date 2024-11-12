@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        color:beige;
+        background-color:black;
+
+    }
+}
+
+@layer components{
+    /* .menuLink {
+        @apply cursor-pointer hover:text-[#c5c5c5];
+    } */
+
+    .tags {
+        background-color:rgb(73, 135, 205);
+        margin-right:  0.5rem;
+        margin-top: 0.5rem;
+        padding:3px 10px;
+        display: inline-block;
+        color:beige;
+       font-size: 12px;      
+    }
+    }
